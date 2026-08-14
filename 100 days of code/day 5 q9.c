@@ -11,3 +11,7 @@ int main() {
   printf("compound interest = %.2f\n",ci);
     return 0;
 }
+// Method 2:
+// take r as float 
+// ci=p*pow(1+r/100,t)-p;
+// It will give the same output
