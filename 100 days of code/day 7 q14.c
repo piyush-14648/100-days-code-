@@ -1,4 +1,5 @@
-nclude <stdio.h>
+//Write a program to input a character and check whether it is a vowel or consonant using if–else
+include <stdio.h>
 #include <string.h> //to use string functions in the program
 int main()
 {
