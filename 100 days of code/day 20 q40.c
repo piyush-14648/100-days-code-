@@ -34,25 +34,25 @@ int main()
 }
 
 
-//method 2-->
-#include <stdio.h>
-int main()
-{
-    int n, r, result = 0, place = 1;
-    printf("enter a binary number: ");
-    scanf("%d", &n);
+// method 2-->
+// #include <stdio.h>
+// int main()
+// {
+//     int n, r, result = 0, place = 1;
+//     printf("enter a binary number: ");
+//     scanf("%d", &n);
 
-    while (n != 0)
-    {
-        r = n % 10;
-        if (r == 0)
-            r = 1;
-        else
-            r = 0;
-        result = result + r * place;
-        place = place * 10;
-        n = n / 10;  
-    }
-    printf("1's complement is %d", result);
-    return 0;
-}
+//     while (n != 0)
+//     {
+//         r = n % 10;
+//         if (r == 0)
+//             r = 1;
+//         else
+//             r = 0;
+//         result = result + r * place;
+//         place = place * 10;
+//         n = n / 10;  
+//     }
+//     printf("1's complement is %d", result);
+//     return 0;
+// }
