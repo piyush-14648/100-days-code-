@@ -4,7 +4,7 @@ int main()
 {
     int arr[2][2],brr[2][2],sum[2][2];
     int i,j;
-    printf("enter 12 elements in 1st array:");
+    printf("enter 4 elements in 1st array:");
     for( i=0;i<2;i++)
     {
         for(j=0;j<2;j++)
@@ -20,7 +20,7 @@ int main()
         }
         printf("\n");
     }
-    printf("enter 12 elements in 2nd array:");
+    printf("enter 4 elements in 2nd array:");
      for( i=0;i<2;i++)
      {
         for( j=0;j<2;j++)
