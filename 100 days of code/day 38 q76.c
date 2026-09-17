@@ -3,7 +3,7 @@
 int main()
 {
     int arr[2][2];
-    int i,j,flag=1;
+    int i,j,flag=0;
     printf("enter 4 elements in an array:");
     for( i=0;i<2;i++)
     {
@@ -25,10 +25,11 @@ int main()
         for( j=0;j<2;j++) 
         {
             if (arr[i][j]!=arr[j][i])
-            flag=0;
+            flag=1;
+            break;
         }   
     }
-    if (flag==1)
+    if (flag==0)
     printf("symmetric matrix");
     else
     printf("not a symmetric matrix");
