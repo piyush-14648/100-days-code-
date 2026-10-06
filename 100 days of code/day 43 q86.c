@@ -1,4 +1,4 @@
-//Reverse a string
+//check if a string is pallindrome or not
 #include <stdio.h>
 #include<string.h>
 int main()
