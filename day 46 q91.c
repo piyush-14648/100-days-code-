@@ -1,3 +1,4 @@
+//Remove all vowels from a string.
 #include <stdio.h>
 #include <string.h>
 
